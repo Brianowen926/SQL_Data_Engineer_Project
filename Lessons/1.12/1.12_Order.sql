@@ -31,7 +31,7 @@ ORDER BY posting_count DESC;
 
 EXPLAIN ANALYZE 
 SELECT 
-cd.name AS company_name_coba,
+cd.name AS company_name,
 COUNT(jpf.job_id) AS posting_count
 FROM job_postings_fact AS jpf
 LEFT JOIN company_dim AS cd
