@@ -15,11 +15,22 @@ Di akhir video objektif nya adalah
 
 ## GIT Setup **Kalo bingung bisa lihat di menit 5.30..**
 ### Kalo push file origin
-1. git push . (kalo mau semua file) atau git push (nama file)
+1. git push . (kalo mau semua file) atau git push [nama file]
 2. git commit -m "Infokan apa yg mau di push"
 **_Setiap kali ada update ulangi langkah 1 dan 2_**
 3. git status untuk lihat status nya apakah sudah di push
 
-**FYI, bisa juga liat Source Cpntrol di panel paling kiri untuk lihat apa aja**
+**FYI, bisa juga liat Source Control di panel paling kiri untuk lihat apa aja**
 ### Contoh command nya
 ![hahaha](image-4.png)
+
+### Git pull
+1. Buat repo di github
+2. copass link nya
+3. di terminal git remote add origin [link nya]
+4. git push -u origin main (-u artinya upstream)
+5. git fetch
+6. git pull
+
+**_Kalo misal edit code di GitHub nya langsung, di local tidak akan terupdate_**
+**_Untuk update maka perlu git pull aja_**
