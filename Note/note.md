@@ -21,3 +21,5 @@ Di akhir video objektif nya adalah
 3. git status untuk lihat status nya apakah sudah di push
 
 **FYI, bisa juga liat Source Cpntrol di panel paling kiri untuk lihat apa aja**
+### Contoh command nya
+![hahaha](image-4.png)
