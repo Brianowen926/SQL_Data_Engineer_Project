@@ -34,3 +34,6 @@ Di akhir video objektif nya adalah
 
 **_Kalo misal edit code di GitHub nya langsung, di local tidak akan terupdate_**
 **_Untuk update maka perlu git pull aja_**
+
+### DDL & DML
+![alt text](image.png)
