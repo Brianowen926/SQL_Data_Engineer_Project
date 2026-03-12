@@ -37,3 +37,34 @@ Di akhir video objektif nya adalah
 
 ### DDL & DML
 ![alt text](image.png)
+
+### SOURCE TBL
+![alt text](image-5.png)
+A. CTAS:
+- untuk membuat table 
+- stored on disk
+- snapshot at creation time
+- fast reads
+- source change & autoupdate
+
+B. VIEW:
+- stored query definition
+- virtual table
+- not data stored
+
+C. TEMP TABLE
+- Sssion scoped table
+- Materialized data
+- Seasoning scope
+- aUTODELETE on disconnect
+
+[Nek bingung ini file e](Lessons/1.22/1.22_DD_DML_pt2.sql)
+![alt text](image-6.png)
+
+-VIEW kalo butuh latest data untuk data
+-CTAS kalo fast read, same result
+-TEMP untuk testing debugging
+
+#### **[File untuk pipeline](Lessons\1.24\1.24_priority_tables_snapshot.sql)**
+Diagaram pipeline nya kayak gini
+![alt text](image-8.png)
