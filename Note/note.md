@@ -1,5 +1,8 @@
 # [TUTORIAL VIDEO](https://www.youtube.com/watch?v=UjhFbq4uU2Y) 
 
+## Dalam kasus ini pake DUCKDB
+cara running di GITBASH: duckdb md: [nama DB]
+
 ## EDA
 Business analyst dan market analys adalah client dari DATA ENGINEER
 ![alt text](image-1.png)
@@ -68,3 +71,19 @@ C. TEMP TABLE
 #### **[File untuk pipeline](Lessons\1.24\1.24_priority_tables_snapshot.sql)**
 Diagaram pipeline nya kayak gini
 ![alt text](image-8.png)
+
+## Data Modeling
+Kenapa Data Modeling penting?
+- Untuk menyeragamkan design agar kita bisa akses data lebih cepat
+- lebih mudah di analisa dan di aggregate
+![alt text](image-7.png)
+
+ERP 
+- fungsi untuk run entire bisnis berfokus pada back office (include HR, operation, DATA)
+cONTOH NYA KAYAK orcale
+
+CRM (Customer Relationship Management)
+- Fungsi untuk menumbuhkan revenue lebih ke front office
+
+DATABASE ada 2 relationship: OLTP dan OLAP
+![alt text](image-9.png)
