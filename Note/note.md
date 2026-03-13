@@ -18,9 +18,10 @@ Di akhir video objektif nya adalah
 
 ## GIT Setup **Kalo bingung bisa lihat di menit 5.30..**
 ### Kalo push file origin
-1. git push . (kalo mau semua file) atau git push [nama file]
+1. git add . (kalo mau semua file) atau git push [nama file]
 2. git commit -m "Infokan apa yg mau di push"
-**_Setiap kali ada update ulangi langkah 1 dan 2_**
+3. git push untuk push file ke repo
+**_Setiap kali ada update ulangi langkah 1-3_**
 3. git status untuk lihat status nya apakah sudah di push
 
 **FYI, bisa juga liat Source Control di panel paling kiri untuk lihat apa aja**
