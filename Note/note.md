@@ -88,3 +88,6 @@ CRM (Customer Relationship Management)
 
 DATABASE ada 2 relationship: OLTP dan OLAP
 ![alt text](image-9.png)
+
+## Windows Function
+![alt text](image-10.png)
