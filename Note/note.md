@@ -48,6 +48,15 @@ Di akhir video objektif nya adalah
 5. git fetch
 6. git pull
 
+## Git Setup part 2 (hour 11.52)
+### Git branch
+1. git branch __untuk cek branch apa saja__
+2. git branch [nama branch] __untuk buat nama branch__
+3. git switch [nama branch] __switch ke branch yang mau dikerjakan__
+4. git branch -d [nama branch] __delete branch (pastikan sudah di branch yg lain sebelum delete branch itu)__
+5. **Jika mau buat dan langsung siwtch**
+git switch -c [nama branch] 
+
 **_Kalo misal edit code di GitHub nya langsung, di local tidak akan terupdate_**
 **_Untuk update maka perlu git pull aja_**
 
