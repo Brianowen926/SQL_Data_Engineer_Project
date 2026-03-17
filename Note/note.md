@@ -58,10 +58,25 @@ Di akhir video objektif nya adalah
 git switch -c [nama branch] 
 
 ### Git merge
+#### Fast Way
+![alt text](image-13.png)
 Menggabungkan branch ke main atau sebaliknya
 1. pastikan ke main dengan git switch main
 2. git pull origin main untuk cek apakah ada update
 3. git merge [branch yang mau di merge dengan main]
+
+#### Three way
+Terjadi kalo ada cowokrer nge push, kemudian kita nge push juga ![alt text](image-12.png)
+Misal kita mau ngepush
+1. git switch -c [nama branch] Bikin branch baru
+2. Katakanlah kita mau nge push udah di commit -m
+3. git push -u origin [nama branch] __untuk upstream supaya kalo lain kali nge push gak perlu define nama file__
+4. git switch main
+5. git fetch __untuk lihat ada perubahan di local__
+6. git pull
+7. git merge [nama branch yang mau di merge dengan main]
+8. git push
+9. Kemudian delete branch kalo udah gak dipake
 
 ### Delete Branch
 1.  git branch -d [feature/project2-readme]
