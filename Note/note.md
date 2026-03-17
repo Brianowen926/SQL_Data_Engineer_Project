@@ -3,6 +3,18 @@
 ## Dalam kasus ini pake DUCKDB
 cara running di GITBASH: duckdb md: [nama DB]
 
+### SEQUENCE dalam Jalannya Script SQL
+FROM
+→ WHERE          ❌ (belum ada aggregation)
+→ GROUP BY
+→ AGGREGATE      (MEDIAN, SUM, dll baru dihitung di sini)
+→ HAVING         ✅ (boleh pakai aggregation)
+→ SELECT
+→ ORDER BY 
+**INGAT, kalu ada Aggregate, func, gunakan HAVING. Karena SEquence nya WHERE DULU baru aggregate.** 
+**Makae sql tanya kok gak ada aggregate func nya. maka error**
+
+
 ## EDA
 Business analyst dan market analys adalah client dari DATA ENGINEER
 ![alt text](image-1.png)
@@ -91,3 +103,11 @@ DATABASE ada 2 relationship: OLTP dan OLAP
 
 ## Windows Function
 ![alt text](image-10.png)
+
+## Nested Data
+![](image-11.png)
+- Array/List
+- Struct/record/row
+- Array of Struct (orderd collection of struct records) (lebih sering ditemui)
+- MAP/OBJECT/DISCT (unordered collection. mengandung key dan values)
+- JSON 
