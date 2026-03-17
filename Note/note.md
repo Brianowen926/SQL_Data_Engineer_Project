@@ -57,6 +57,16 @@ Di akhir video objektif nya adalah
 5. **Jika mau buat dan langsung siwtch**
 git switch -c [nama branch] 
 
+### Git merge
+Menggabungkan branch ke main atau sebaliknya
+1. pastikan ke main dengan git switch main
+2. git pull origin main untuk cek apakah ada update
+3. git merge [branch yang mau di merge dengan main]
+
+### Delete Branch
+1.  git branch -d [feature/project2-readme]
+2.  git push origin --delete [nama branch yang di delete] __Supaya yg di github juga di delete__
+
 **_Kalo misal edit code di GitHub nya langsung, di local tidak akan terupdate_**
 **_Untuk update maka perlu git pull aja_**
 
