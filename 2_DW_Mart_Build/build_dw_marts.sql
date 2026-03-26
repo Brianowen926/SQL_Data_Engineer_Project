@@ -7,6 +7,9 @@
 -- Step 2: DW - Load data from CSV into tables
 .read 02_load_schema_dw.sql
 
+-- 03 Create SCHEMA flat mart table
+.read 03_create_flat_mart.sql
+
 /*
 ntuk jalankan script ini (PASTIKAN SUDAH DI DIRECTOry yang benar)
 duckdb dw_mart.duckdb -c ".read build_dw_marts.sql"
