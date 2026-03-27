@@ -10,6 +10,9 @@
 -- 03 Create SCHEMA flat mart table
 .read 03_create_flat_mart.sql
 
+-- 04 Create skills mart (dimensional mart)
+.read 04_create_skills_mart.sql
+
 /*
 ntuk jalankan script ini (PASTIKAN SUDAH DI DIRECTOry yang benar)
 duckdb dw_mart.duckdb -c ".read build_dw_marts.sql"
