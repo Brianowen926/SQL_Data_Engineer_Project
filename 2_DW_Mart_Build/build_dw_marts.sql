@@ -13,6 +13,11 @@
 -- 04 Create skills mart (dimensional mart)
 .read 04_create_skills_mart.sql
 
+-- Step 05: Mart - Create priority roles mart
+.read 05_create_priority_mart.sql
+
+-- Step 6: Mart - Update priority roles mart
+.read 06_update_priority_mart.sql
 /*
 ntuk jalankan script ini (PASTIKAN SUDAH DI DIRECTOry yang benar)
 duckdb dw_mart.duckdb -c ".read build_dw_marts.sql"
