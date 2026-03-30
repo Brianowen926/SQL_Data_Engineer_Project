@@ -145,3 +145,11 @@ DATABASE ada 2 relationship: OLTP dan OLAP
 - Array of Struct (orderd collection of struct records) (lebih sering ditemui)
 - MAP/OBJECT/DISCT (unordered collection. mengandung key dan values)
 - JSON 
+
+## Bagaimana share Data Pipeline yang kita buat ke CLOUD MOtherduck?
+- Di terminal. Jalankan perintah dukdb MD: (untuk esatablish connection dengan DB)
+- Type .databases untuk lihat ada DB apa saja
+- Jika tidak ada nama DB maka CREATE DATABASE dw_mart;
+- .quit
+- Pastikan sudah di directory yang ada script nya kemudian jalankan
+duckdb md:dw_mart -c ".read build_dw_marts.sql"
