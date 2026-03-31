@@ -1,7 +1,8 @@
 # Fungsi fitignore untuk tidak men track file yang tidak diinginkan
 #Ini standar dalam dunia programming 
 # Ketika buat project, ini dibuat di awal
-NOTE/
+NOTE
+project_note
 
 # 🗄️ Local databases
 *.duckdb
