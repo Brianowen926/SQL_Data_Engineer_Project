@@ -108,14 +108,14 @@ C. TEMP TABLE
 - Seasoning scope
 - aUTODELETE on disconnect
 
-[Nek bingung ini file e](Lessons/1.22/1.22_DD_DML_pt2.sql)
+[Nek bingung ini file e](../Lessons/1.22/1.22_DD_DML_pt2.sql)
 ![alt text](image-6.png)
 
 -VIEW kalo butuh latest data untuk data
 -CTAS kalo fast read, same result
 -TEMP untuk testing debugging
 
-#### **[File untuk pipeline](Lessons\1.24\1.24_priority_tables_snapshot.sql)**
+#### **[File untuk pipeline](../Lessons/1.24/1.24_priority_tables_snapshot.sql)**
 Diagaram pipeline nya kayak gini
 ![alt text](image-8.png)
 
